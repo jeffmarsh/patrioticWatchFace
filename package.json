@@ -1,0 +1,47 @@
+{
+    "author": "jeffmarsh@mac.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "graphicstest",
+    "pebble": {
+        "displayName": "GraphicsTest",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/blueStars.png",
+                    "name": "STARS_BLUE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/redStars.png",
+                    "menuIcon": true,
+                    "name": "STARS_RED",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9.:]",
+                    "file": "fonts/Patriot.ttf",
+                    "name": "PATRIOT_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "63fadd47-64c3-4835-844b-0adead5a0688",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
